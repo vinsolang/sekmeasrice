@@ -97,7 +97,7 @@
             </div>
         </section>
          {{-- History of Sek Meas --}}
-        <section class="w-full py-16 bg-white px-4">
+        <section class="w-full py-16 bg-white px-8">
             <div class="text-center text-[#4DA358] font-bold mb-12">
                 <h1 class="text-2xl sm:text-3xl md:text-4xl">History of Rice Milling Production</h1>
             </div>
@@ -144,7 +144,7 @@
        
         {{-- Section: Inoformation of SEO in Sek Meas Rice --}}
         <section class="relative w-full">
-            <img src="{{ asset('frontend/assets/imges/infor-seo.png') }}" alt="">
+            <img src="{{ asset('frontend/assets/imges/infor-seo.png') }}" alt="" class="w-full h-full object-cover">
         </section>
     </div>
     {{-- Section: Business Registration --}}
