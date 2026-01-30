@@ -45,7 +45,8 @@
                     placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
                     aria-describedby="password"
                   />
-                  <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                  {{-- <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span> --}}
+                   {{-- <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span> --}}
                 </div>
               </div>
               <div class="mb-3">
@@ -64,12 +65,12 @@
               </div>
             </form>
 
-            <p class="text-center">
+            {{-- <p class="text-center">
               <span>New on our platform?</span>
               <a href="{{ route('register') }}">
                 <span>Create an account</span>
               </a>
-            </p>
+            </p> --}}
           </div>
         </div>
         <!-- /Register -->
