@@ -26,6 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     {{-- Favicon --}}
     <link rel="icon" href="{{ asset('frontend/assets/logo/logo_rice.png') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         [x-cloak] {
             display: none !important;
@@ -38,7 +39,7 @@
     </style>
 </head>
 
-<body class="font-[Battambang] overflow-x-hidden p-0 m-0">
+<body class="font-[Battambang] overflow-hidden p-0 m-0">
 
     <!-- HERO SECTION -->
     <section class="relative w-full max-w-full z-30">
@@ -55,7 +56,7 @@
         @endif
         <!-- HEADER -->
         <header
-            class="relative w-full flex flex-col items-center fixed top-0 left-0 z-50 p-0 m-0 sm:p-0 sm:m-0 md:p-0 md:m-0 lg:p-4 lg:mt-2">
+            class="relative w-full flex flex-col items-center fixed top-0 left-0 z-50 p-0 m-0 sm:p-0 sm:m-0 md:p-0 md:m-0 lg:p-4 lg:mt-2" data-aos="fade-down" data-aos-duration="1500">
             <!-- WRAPPER to control overlap -->
             <div class="relative w-full flex flex-col items-center"> <!-- TOP GOLD BAR -->
                 <div class="relative xl:top-[34px] lg:top-[34px] sm:top-0 w-[80%] h-[65px] flex items-center justify-between px-10 z-20"
@@ -341,7 +342,7 @@
         </div>
         {{-- Text Home, Export, About Us, Activity, and Contact Us --}}
         <div
-            class="absolute inset-0 flex flex-col justify-center items-center text-center lg:top-[-200px] sm:top-[20px] top-[30px]">
+            class="absolute inset-0 flex flex-col justify-center items-center text-center lg:top-[-200px] sm:top-[20px] top-[30px]" data-aos="fade-up" data-aos-duration="1500">
             <div class="bg-white/3">
                 <h4 class="text-3xl sm:text-4xl text-[#1E3E0F] font-semibold tracking-wide">
                     @yield('welcome')
@@ -452,6 +453,7 @@
         }
     });
 </script> --}}
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     const menuButton = document.getElementById('menuButton');
     const menuIcon = document.getElementById('menuIcon');
@@ -478,6 +480,8 @@
         }
     });
 </script>
-
+<script>
+  AOS.init();
+</script>
 
 </html>
