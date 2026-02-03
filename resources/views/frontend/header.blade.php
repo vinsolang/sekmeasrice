@@ -245,7 +245,7 @@
 
                         <!--  Mobile Slide Menu -->
                         <div id="mobileMenu"
-                            class="fixed mt-[65px] h-full left-0 h-[calc(100%-98px)] w-[70%] max-w-[300px] bg-white shadow-lg transform -translate-x-full transition-transform duration-300 ease-in-out z-40 p-6 lg:hidden">
+                            class="fixed mt-[65px] h-screen left-0 w-[70%] max-w-[300px] bg-white shadow-lg transform -translate-x-full transition-transform duration-300 ease-in-out z-40 p-6 lg:hidden">
                             <ul
                                 class="relative left-[30px] top-[30px] flex flex-col gap-6 text-green-700 font-medium text-base">
                                 <li><a href="{{ route('home') }}" class="hover:text-yellow-600 transition">Home</a></li>
@@ -394,7 +394,7 @@
         </div>
     </section>
     <!-- PAGE CONTENT -->
-    <section class="relative z-[999] w-full">
+    <section class="relative z-10 w-full">
         @yield('section_content')
     </section>
     <section class="relative z-10 w-full">
